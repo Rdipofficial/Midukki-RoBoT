@@ -91,7 +91,7 @@ class Configs(object):
 
     # other
     DONATE_LINKS = environ.get("DONATION_LINK", "https://p.paytm.me/xCTH/7yzmtgie")
-    LOADING_SYMBOL = bool(environ.get("LOADING_MODE", True))
+    LOADING_SYMBOL = bool(environ.get("LOADING_MODE", False))
 
     LOADING_A = environ.get("LOADING_SYMBOL_A", "⚪️")
 
